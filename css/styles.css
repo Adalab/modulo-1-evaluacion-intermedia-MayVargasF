@@ -44,6 +44,7 @@
 .slogan {
     width: 200px;
     text-align: center;
+    font-weight: bolder;
     
 }
 
@@ -52,3 +53,25 @@
     font-size: 30px;
   
 }
+
+@media all and (min-width: 768px) {
+
+    .slogan h1 {
+        font-size: 40px;
+    }
+
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .header .logo {
+        padding: 20px 0px 20px 30px;
+    }
+
+    .header .menu {
+        padding-right: 30px;
+    }
+}
+    
+
